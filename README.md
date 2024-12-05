@@ -49,7 +49,7 @@ exec-once = avizo-service
 
 bind = , XF86AudioRaiseVolume, exec, volumectl -u up
 bind = , XF86AudioLowerVolume, exec, volumectl -u down
-bind = , XF86AudioMicMute, exec, volumectl toggle-mute
+bind = , XF86AudioMicMute, exec, volumectl -m toggle-mute
 bind = , XF86AudioMute, exec, volumectl toggle-mute
 
 bind = , XF86MonBrightnessUp, exec, lightctl up
