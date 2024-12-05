@@ -16,6 +16,7 @@ The configuration file must be in INI format and should define keys in section n
 Names of the configuration keys correspond to the CLI options (e.g. `block-height`).
 
 Any configuration key can be overridden by corresponding CLI option (i.e. CLI options take precedence).
+### See wiki for more
 
 
 ## Helper scripts
@@ -69,10 +70,6 @@ bindsym XF86AudioMicMute exec volumectl -m toggle-mute
 bindsym XF86MonBrightnessUp exec lightctl up
 bindsym XF86MonBrightnessDown exec lightctl down
 ```
-
-## Configuration
-
-See wiki for configuration
 
 ## Install
 
