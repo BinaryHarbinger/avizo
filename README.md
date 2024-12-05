@@ -59,8 +59,6 @@ bind = , XF86MonBrightnessDown, exec, lightctl down
 ## Sway config
 
 ```
-
-
 exec "avizo-service"
 
 bindsym XF86AudioRaiseVolume exec volumectl -u up
