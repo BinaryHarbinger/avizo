@@ -16,7 +16,7 @@ The configuration file must be in INI format and should define keys in section n
 Names of the configuration keys correspond to the CLI options (e.g. `block-height`).
 
 Any configuration key can be overridden by corresponding CLI option (i.e. CLI options take precedence).
-### See wiki for more
+See [wiki](https://github.com/BinaryHarbinger/avizo/wiki) for more
 
 
 ## Helper scripts
