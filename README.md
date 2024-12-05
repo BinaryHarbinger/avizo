@@ -42,9 +42,27 @@ Adjust (display) brightness and show Avizo notification.
 * [brightnessctl](https://github.com/Hummer12007/brightnessctl) or [light](https://github.com/haikarainen/light)
 
 
+## Hyprland config
+
+```
+exec-once = avizo-service
+
+bind = , XF86AudioRaiseVolume, exec, volumectl -u up
+bind = , XF86AudioLowerVolume, exec, volumectl -u down
+bind = , XF86AudioMicMute, exec, volumectl toggle-mute
+bind = , XF86AudioMute, exec, volumectl toggle-mute
+
+bind = , XF86MonBrightnessUp, exec, lightctl up
+bind = , XF86MonBrightnessDown, exec, lightctl down
+```
+
 ## Sway config
 
 ```
+
+
+exec "avizo-service"
+
 bindsym XF86AudioRaiseVolume exec volumectl -u up
 bindsym XF86AudioLowerVolume exec volumectl -u down
 bindsym XF86AudioMute exec volumectl toggle-mute
@@ -52,9 +70,11 @@ bindsym XF86AudioMicMute exec volumectl -m toggle-mute
 
 bindsym XF86MonBrightnessUp exec lightctl up
 bindsym XF86MonBrightnessDown exec lightctl down
-
-exec "avizo-service"
 ```
+
+## Configuration
+
+See wiki for configuration
 
 ## Install
 
